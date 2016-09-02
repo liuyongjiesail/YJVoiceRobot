@@ -26,11 +26,11 @@
 		E66159691C312871005740C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66159681C312871005740C5 /* QuartzCore.framework */; };
 		E661596B1C312888005740C5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E661596A1C312888005740C5 /* libz.tbd */; };
 		E661596D1C312899005740C5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E661596C1C312899005740C5 /* libc++.tbd */; };
-		E66159751C312DA0005740C5 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E66159721C312DA0005740C5 /* IATConfig.m */; settings = {ASSET_TAGS = (); }; };
-		E66159761C312DA0005740C5 /* IATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66159741C312DA0005740C5 /* IATViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E66159751C312DA0005740C5 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E66159721C312DA0005740C5 /* IATConfig.m */; };
+		E66159761C312DA0005740C5 /* IATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66159741C312DA0005740C5 /* IATViewController.m */; };
 		E66159781C312F3F005740C5 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66159771C312F3F005740C5 /* libMBProgressHUD.a */; };
-		E661597B1C313721005740C5 /* ChangeLanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E661597A1C313721005740C5 /* ChangeLanViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E661597E1C3138D9005740C5 /* MySingleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E661597D1C3138D9005740C5 /* MySingleData.m */; settings = {ASSET_TAGS = (); }; };
+		E661597B1C313721005740C5 /* ChangeLanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E661597A1C313721005740C5 /* ChangeLanViewController.m */; };
+		E661597E1C3138D9005740C5 /* MySingleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E661597D1C3138D9005740C5 /* MySingleData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -435,7 +435,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.VoiceRobotQ;
+				PRODUCT_BUNDLE_IDENTIFIER = sail.VoiceRobotQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -455,7 +455,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.VoiceRobotQ;
+				PRODUCT_BUNDLE_IDENTIFIER = sail.VoiceRobotQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
